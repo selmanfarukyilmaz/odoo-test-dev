@@ -19,12 +19,14 @@
     'version': '1.0',
     
     'depends': ['base'],
+    'license': 'GPL-3',
     
     'data': [
-        
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',        
     ],
     
     'demo': [
-
+        'demo/academy_demo.xml',
     ],
 }
