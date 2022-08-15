@@ -18,7 +18,7 @@
     'category': 'Training',
     'version': '1.0',
     
-    'depends': ['base'],
+    'depends': ['sale'],
     'license': 'GPL-3',
     
     'data': [
@@ -27,6 +27,8 @@
         'views/academy_menuitems.xml',
         'views/course_views.xml',
         'views/session_views.xml',
+        'views/sale_views_inherit.xml',
+        'views/product_views_inherit.xml',
     ],
     
     'demo': [
